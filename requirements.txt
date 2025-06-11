@@ -1,0 +1,8 @@
+# FastAPIとMySQLの接続に必要なパッケージをリストアップする
+fastapi  # FastAPIフレームワーク
+uvicorn  # ASGIサーバー、FastAPIアプリケーションを実行するために使用
+sqlalchemy  # SQLAlchemy ORM、データベース操作を簡素化するために使用
+mysqlclient  # MySQLデータベースに接続するためのドライバ
+pydantic  # データバリデーションと設定管理のためのライブラリ
+python-dotenv  # 環境変数を管理するためのライブラリ
+```
