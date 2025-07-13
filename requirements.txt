@@ -6,3 +6,4 @@ mysqlclient  # MySQLデータベースに接続するためのドライバ
 pydantic  # データバリデーションと設定管理のためのライブラリ
 python-dotenv  # 環境変数を管理するためのライブラリ
 pymysql
+psycopg2-binary
