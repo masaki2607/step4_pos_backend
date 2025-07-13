@@ -19,7 +19,7 @@ database = os.environ.get("DATABASE")
 
 DATABASE_URL = (
     f"mysql+pymysql://{user}:{password}@{host}/{database}"
-    f"?ssl_ca={ssl_ca}"
+    # f"?ssl_ca={ssl_ca}"
 )
 
 engine = create_engine(DATABASE_URL)
