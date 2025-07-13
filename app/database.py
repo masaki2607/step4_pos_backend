@@ -15,7 +15,7 @@ user = os.environ.get("USER")  # 例: tech0sql1@rdbs-step4-brazil-south
 password = os.environ.get("PASSWORD")
 host = os.environ.get("HOST")
 database = os.environ.get("DATABASE")
-ssl_ca = os.environ.get("SSL_CA")  # 例: C:/path/to/DigiCertGlobalRootCA.crt.pem
+# ssl_ca = os.environ.get("SSL_CA")  # 例: C:/path/to/DigiCertGlobalRootCA.crt.pem
 
 DATABASE_URL = (
     f"mysql+pymysql://{user}:{password}@{host}/{database}"
